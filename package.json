@@ -1,0 +1,25 @@
+{
+  "name": "drop",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "drop": "cli/drop.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "synth": "cdk synth",
+    "deploy": "cdk deploy"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.800.0",
+    "aws-cdk-lib": "^2.200.0",
+    "constructs": "^10.4.2"
+  },
+  "devDependencies": {
+    "aws-cdk": "^2.1018.0"
+  }
+}
